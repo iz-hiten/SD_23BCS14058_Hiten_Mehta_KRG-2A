@@ -1,0 +1,233 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36" version="29.3.7">
+  <diagram name="Page-1" id="NEpqunyh1fAhRgaec9AH">
+    <mxGraphModel dx="1860" dy="773" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="iZk0FonEjicejCMUkOh--10" edge="1" parent="1" source="iZk0FonEjicejCMUkOh--2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="iZk0FonEjicejCMUkOh--7" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="210" y="340" />
+              <mxPoint x="210" y="430" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iZk0FonEjicejCMUkOh--2" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Admin/Teacher&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="30" x="120" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="iZk0FonEjicejCMUkOh--11" edge="1" parent="1" source="iZk0FonEjicejCMUkOh--3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="iZk0FonEjicejCMUkOh--7" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="210" y="460" />
+              <mxPoint x="210" y="430" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iZk0FonEjicejCMUkOh--3" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Student&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="30" x="120" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="iZk0FonEjicejCMUkOh--74" edge="1" parent="1" source="iZk0FonEjicejCMUkOh--7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="iZk0FonEjicejCMUkOh--3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="300" y="550" />
+              <mxPoint x="300" y="570" />
+              <mxPoint x="210" y="570" />
+              <mxPoint x="210" y="470" />
+            </Array>
+            <mxPoint x="160" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iZk0FonEjicejCMUkOh--7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" value="API Gateway &amp;amp;Load Balancer" vertex="1">
+          <mxGeometry height="240" width="150" x="260" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="iZk0FonEjicejCMUkOh--12" parent="1" style="points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;fillColor=#FF6A00;strokeColor=none;shape=mxgraph.alibaba_cloud.apigateway;" value="" vertex="1">
+          <mxGeometry height="90" width="93.24" x="288.38" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="iZk0FonEjicejCMUkOh--13" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;ul&gt;&lt;li&gt;Authentication&lt;/li&gt;&lt;li&gt;Authorization&lt;/li&gt;&lt;li&gt;Routing&lt;/li&gt;&lt;/ul&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="280" y="470" as="geometry" />
+        </mxCell>
+        <mxCell id="iZk0FonEjicejCMUkOh--26" edge="1" parent="1" source="iZk0FonEjicejCMUkOh--14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="iZk0FonEjicejCMUkOh--23">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="550" y="160" />
+              <mxPoint x="550" y="115" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iZk0FonEjicejCMUkOh--14" parent="1" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/User_Privacy.svg;" value="" vertex="1">
+          <mxGeometry height="60" width="43.2" x="480" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="iZk0FonEjicejCMUkOh--36" edge="1" parent="1" source="iZk0FonEjicejCMUkOh--15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="iZk0FonEjicejCMUkOh--35">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="596" y="370" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iZk0FonEjicejCMUkOh--76" edge="1" parent="1" source="iZk0FonEjicejCMUkOh--21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="596" y="470" as="sourcePoint" />
+            <mxPoint x="596.19" y="510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iZk0FonEjicejCMUkOh--15" parent="1" style="points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;fillColor=#FF6A00;strokeColor=none;shape=mxgraph.alibaba_cloud.esign;" value="" vertex="1">
+          <mxGeometry height="45.9" width="41.699999999999996" x="575.3399999999999" y="384.1" as="geometry" />
+        </mxCell>
+        <mxCell id="iZk0FonEjicejCMUkOh--46" edge="1" parent="1" source="iZk0FonEjicejCMUkOh--17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="750" y="550.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iZk0FonEjicejCMUkOh--71" edge="1" parent="1" source="iZk0FonEjicejCMUkOh--20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.554;exitY=1.06;exitDx=0;exitDy=0;exitPerimeter=0;" target="iZk0FonEjicejCMUkOh--18">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="592" y="710" />
+              <mxPoint x="592" y="710" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iZk0FonEjicejCMUkOh--17" parent="1" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#232F3D;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.question;" value="" vertex="1">
+          <mxGeometry height="59" width="31.01" x="575.34" y="521" as="geometry" />
+        </mxCell>
+        <mxCell id="iZk0FonEjicejCMUkOh--18" parent="1" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#01A88D;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.application_discovery_service_migration_evaluator_collector;" value="" vertex="1">
+          <mxGeometry height="60" width="60" x="560" y="740" as="geometry" />
+        </mxCell>
+        <mxCell id="iZk0FonEjicejCMUkOh--19" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Evaluation Service&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="560.85" y="810" as="geometry" />
+        </mxCell>
+        <mxCell id="iZk0FonEjicejCMUkOh--20" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Question Bank Service" vertex="1">
+          <mxGeometry height="30" width="90" x="541.62" y="580" as="geometry" />
+        </mxCell>
+        <mxCell id="iZk0FonEjicejCMUkOh--21" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Exam Management Service" vertex="1">
+          <mxGeometry height="30" width="109.15" x="541.6199999999999" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="iZk0FonEjicejCMUkOh--22" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Auth &amp;amp; User Service" vertex="1">
+          <mxGeometry height="30" width="73.72" x="464.73999999999995" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="iZk0FonEjicejCMUkOh--31" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=1;entryDx=0;entryDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="670" y="240" />
+              <mxPoint x="520" y="240" />
+            </Array>
+            <mxPoint x="669.9999999999998" y="136.47172788007185" as="sourcePoint" />
+            <mxPoint x="520.03" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iZk0FonEjicejCMUkOh--23" parent="1" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/database_server.svg;" value="User DB&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="41" x="660" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="iZk0FonEjicejCMUkOh--27" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Registration: Adding user in DB&amp;nbsp;" vertex="1">
+          <mxGeometry height="30" width="133.65" x="545" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="iZk0FonEjicejCMUkOh--29" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Checking User credentials&amp;nbsp;" vertex="1">
+          <mxGeometry height="30" width="94.66" x="560" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="iZk0FonEjicejCMUkOh--30" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="2.User logging&amp;nbsp;" vertex="1">
+          <mxGeometry height="30" width="138.38" x="310.81" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="iZk0FonEjicejCMUkOh--32" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="HTTPS: Response: User verified&amp;nbsp; and Role Checking&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="133.71" x="545" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="iZk0FonEjicejCMUkOh--33" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.867;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" target="iZk0FonEjicejCMUkOh--7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="490" y="250" />
+              <mxPoint x="390" y="250" />
+            </Array>
+            <mxPoint x="490" y="220" as="sourcePoint" />
+            <mxPoint x="390" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iZk0FonEjicejCMUkOh--34" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;div&gt;&lt;div&gt;JWT Token for Session&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="420" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="iZk0FonEjicejCMUkOh--35" parent="1" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/database_server.svg;" value="Exam DB&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="41" x="770" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="iZk0FonEjicejCMUkOh--38" edge="1" parent="1" source="iZk0FonEjicejCMUkOh--7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="450" y="406" />
+              <mxPoint x="450" y="406" />
+            </Array>
+            <mxPoint x="570" y="406" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iZk0FonEjicejCMUkOh--42" edge="1" parent="1" source="iZk0FonEjicejCMUkOh--7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="335" y="231" />
+              <mxPoint x="302" y="231" />
+            </Array>
+            <mxPoint x="310" y="310" as="sourcePoint" />
+            <mxPoint x="470" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iZk0FonEjicejCMUkOh--25" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="1.User Registration&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="115" x="322.5" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="iZk0FonEjicejCMUkOh--43" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Admin: Create or Schedule Exam&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="118.71" x="606.35" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="iZk0FonEjicejCMUkOh--44" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;div&gt;&lt;div&gt;Exam Access Request&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="120" x="430" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="iZk0FonEjicejCMUkOh--45" parent="1" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/database_server.svg;" value="Question DB&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="41" x="770" y="530" as="geometry" />
+        </mxCell>
+        <mxCell id="iZk0FonEjicejCMUkOh--47" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;autosize=1;resizable=0;" value="Fetch Questions for exam&amp;nbsp;" vertex="1">
+          <mxGeometry height="30" width="160" x="600" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="iZk0FonEjicejCMUkOh--54" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;div&gt;Evaluation Strategy&lt;/div&gt;&lt;div&gt;- Objective Evaluation&lt;/div&gt;&lt;div&gt;- Descriptive Evaluation&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="172.96" x="520.8499999999999" y="850" as="geometry" />
+        </mxCell>
+        <mxCell id="iZk0FonEjicejCMUkOh--64" edge="1" parent="1" source="iZk0FonEjicejCMUkOh--56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="820" y="790" />
+              <mxPoint x="820" y="790" />
+            </Array>
+            <mxPoint x="830" y="789" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iZk0FonEjicejCMUkOh--65" edge="1" parent="1" source="iZk0FonEjicejCMUkOh--56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="iZk0FonEjicejCMUkOh--7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="731" y="650" />
+              <mxPoint x="335" y="650" />
+            </Array>
+            <mxPoint x="120" y="625.0000000000002" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iZk0FonEjicejCMUkOh--56" parent="1" style="verticalLabelPosition=bottom;aspect=fixed;html=1;shape=mxgraph.salesforce.work_com;fillColorStyles=fillColor2,fillColor3,fillColor4;fillColor2=#032e61;fillColor3=#00a1e0;fillColor4=#ffffff;fillColor=none;strokeColor=none;" value="Result Service&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="58.8" width="60" x="701" y="760" as="geometry" />
+        </mxCell>
+        <mxCell id="iZk0FonEjicejCMUkOh--57" edge="1" parent="1" source="iZk0FonEjicejCMUkOh--18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="655" y="770" />
+              <mxPoint x="655" y="790" />
+            </Array>
+            <mxPoint x="690" y="790" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iZk0FonEjicejCMUkOh--58" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;ul&gt;&lt;li&gt;Calculate Score&lt;/li&gt;&lt;li&gt;Store Result&lt;/li&gt;&lt;li&gt;Notify user&lt;/li&gt;&lt;/ul&gt;&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;br&gt;&lt;/blockquote&gt;" vertex="1">
+          <mxGeometry height="90" width="149" x="621" y="850" as="geometry" />
+        </mxCell>
+        <mxCell id="iZk0FonEjicejCMUkOh--63" parent="1" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/database_server.svg;" value="Result DB&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="41" x="840" y="764.4" as="geometry" />
+        </mxCell>
+        <mxCell id="iZk0FonEjicejCMUkOh--69" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;div&gt;&lt;div&gt;Result Notification&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="350" y="620" as="geometry" />
+        </mxCell>
+        <mxCell id="iZk0FonEjicejCMUkOh--70" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font face=&quot;Lucida Console&quot;&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;OCP&lt;/span&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="520.85" y="764.4" as="geometry" />
+        </mxCell>
+        <mxCell id="iZk0FonEjicejCMUkOh--72" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;div&gt;Submit Exam Responses&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="110" x="496.35" y="670" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
