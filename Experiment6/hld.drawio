@@ -1,0 +1,493 @@
+<mxGraphModel dx="1603" dy="-13435" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+  <root>
+    <mxCell id="0" />
+    <mxCell id="1" parent="0" />
+    <mxCell id="user1" parent="1" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#232F3E;fillColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.users;" value="" vertex="1">
+      <mxGeometry height="60" width="60" x="622" y="15210" as="geometry" />
+    </mxCell>
+    <mxCell id="user2" parent="1" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#232F3E;fillColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.users;" value="" vertex="1">
+      <mxGeometry height="60" width="60" x="622" y="15270" as="geometry" />
+    </mxCell>
+    <mxCell id="user3" parent="1" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#232F3E;fillColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.users;" value="" vertex="1">
+      <mxGeometry height="60" width="60" x="622" y="15340" as="geometry" />
+    </mxCell>
+    <mxCell id="user4" parent="1" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#232F3E;fillColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.users;" value="" vertex="1">
+      <mxGeometry height="60" width="60" x="622" y="15410" as="geometry" />
+    </mxCell>
+    <mxCell id="clientLabel" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" value="&lt;b&gt;Users&lt;/b&gt;" vertex="1">
+      <mxGeometry height="30" width="60" x="622" y="15470" as="geometry" />
+    </mxCell>
+    <mxCell id="userNote1" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" value="Viewer" vertex="1">
+      <mxGeometry height="30" width="60" x="542" y="15225" as="geometry" />
+    </mxCell>
+    <mxCell id="userNote2" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" value="Creator" vertex="1">
+      <mxGeometry height="30" width="60" x="542" y="15355" as="geometry" />
+    </mxCell>
+    <mxCell id="apiGateway" parent="1" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#7AA116;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.iot_device_gateway;" value="" vertex="1">
+      <mxGeometry height="110" width="117.53" x="813" y="15290" as="geometry" />
+    </mxCell>
+    <mxCell id="gatewayLabel" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" value="&lt;b&gt;API Gateway &amp;amp; CDN&lt;/b&gt;" vertex="1">
+      <mxGeometry height="30" width="160" x="792" y="15400" as="geometry" />
+    </mxCell>
+    <mxCell id="gatewayFeatures1" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" value="- Load Balancing" vertex="1">
+      <mxGeometry height="30" width="120" x="812" y="15430" as="geometry" />
+    </mxCell>
+    <mxCell id="gatewayFeatures2" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" value="- Authentication" vertex="1">
+      <mxGeometry height="30" width="110" x="817" y="15460" as="geometry" />
+    </mxCell>
+    <mxCell id="gatewayFeatures3" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" value="- Rate Limiting" vertex="1">
+      <mxGeometry height="30" width="100" x="822" y="15490" as="geometry" />
+    </mxCell>
+    <mxCell id="conn1" edge="1" parent="1" source="user1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="apiGateway">
+      <mxGeometry relative="1" as="geometry">
+        <Array as="points">
+          <mxPoint x="692" y="15240" />
+          <mxPoint x="692" y="15320" />
+        </Array>
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="userService" parent="1" style="verticalLabelPosition=bottom;sketch=0;html=1;fillColor=#A153A0;strokeColor=#ffffff;verticalAlign=top;align=center;points=[[0,0.5,0],[0.125,0.25,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[0.875,0.25,0],[1,0.5,0],[0.875,0.75,0],[0.75,1,0],[0.5,1,0],[0.125,0.75,0]];pointerEvents=1;shape=mxgraph.cisco_safe.compositeIcon;bgIcon=ellipse;resIcon=mxgraph.cisco_safe.design.users;" value="" vertex="1">
+      <mxGeometry height="60" width="70" x="1020" y="15070" as="geometry" />
+    </mxCell>
+    <mxCell id="userServiceLabel" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" value="User Service" vertex="1">
+      <mxGeometry height="30" width="90" x="1010" y="15130" as="geometry" />
+    </mxCell>
+    <mxCell id="userDB" parent="1" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.mysql_db_instance;fillColor=#2E73B8;gradientColor=none;" value="" vertex="1">
+      <mxGeometry height="64.5" width="60" x="1230" y="15067" as="geometry" />
+    </mxCell>
+    <mxCell id="userDBLabel" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" value="&lt;b&gt;User DB&lt;/b&gt;" vertex="1">
+      <mxGeometry height="30" width="70" x="1225" y="15037" as="geometry" />
+    </mxCell>
+    <mxCell id="userDBDetails" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" value="- userID&lt;br&gt;- username&lt;br&gt;- email&lt;br&gt;- subscribers&lt;br&gt;- channels" vertex="1">
+      <mxGeometry height="90" width="90" x="1310" y="15054" as="geometry" />
+    </mxCell>
+    <mxCell id="conn2" edge="1" parent="1" source="apiGateway" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="userService">
+      <mxGeometry relative="1" as="geometry">
+        <Array as="points">
+          <mxPoint x="892" y="15280" />
+        </Array>
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="conn3" edge="1" parent="1" source="userService" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="userDB">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="userFlow1" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" value="1. User Login/Register" vertex="1">
+      <mxGeometry height="30" width="140" x="872" y="15070" as="geometry" />
+    </mxCell>
+    <mxCell id="userFlow2" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" value="Auth &amp;amp; Session" vertex="1">
+      <mxGeometry height="30" width="110" x="1120" y="15070" as="geometry" />
+    </mxCell>
+    <mxCell id="uploadService" parent="1" style="sketch=0;html=1;aspect=fixed;strokeColor=none;shadow=0;fillColor=#3B8DF1;verticalAlign=top;labelPosition=center;verticalLabelPosition=bottom;shape=mxgraph.gcp2.database_uploading" value="" vertex="1">
+      <mxGeometry height="59" width="70.23" x="1020" y="15200" as="geometry" />
+    </mxCell>
+    <mxCell id="uploadServiceLabel" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" value="Upload Service" vertex="1">
+      <mxGeometry height="30" width="110" x="1000" y="15260" as="geometry" />
+    </mxCell>
+    <mxCell id="objectStorage" parent="1" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="" vertex="1">
+      <mxGeometry height="80" width="120" x="1230" y="15190" as="geometry" />
+    </mxCell>
+    <mxCell id="objectStorageLabel" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" value="&lt;b&gt;Object Storage&lt;/b&gt;" vertex="1">
+      <mxGeometry height="30" width="120" x="1230" y="15200" as="geometry" />
+    </mxCell>
+    <mxCell id="objectStorageDetails" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" value="Raw Videos&lt;br&gt;(S3/GCS)" vertex="1">
+      <mxGeometry height="40" width="90" x="1245" y="15225" as="geometry" />
+    </mxCell>
+    <mxCell id="conn4" edge="1" parent="1" source="apiGateway" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="uploadService">
+      <mxGeometry relative="1" as="geometry">
+        <Array as="points">
+          <mxPoint x="892" y="15320" />
+        </Array>
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="conn5" edge="1" parent="1" source="uploadService" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="objectStorage">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="uploadFlow1" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" value="2. Video Upload" vertex="1">
+      <mxGeometry height="30" width="110" x="872" y="15200" as="geometry" />
+    </mxCell>
+    <mxCell id="uploadFlow2" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" value="Store raw video" vertex="1">
+      <mxGeometry height="30" width="110" x="1120" y="15200" as="geometry" />
+    </mxCell>
+    <mxCell id="kafka" parent="1" style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="" vertex="1">
+      <mxGeometry height="80" width="120" x="1430" y="15190" as="geometry" />
+    </mxCell>
+    <mxCell id="kafkaLabel" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" value="&lt;b&gt;Kafka Queue&lt;/b&gt;" vertex="1">
+      <mxGeometry height="30" width="100" x="1440" y="15200" as="geometry" />
+    </mxCell>
+    <mxCell id="kafkaDetails" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" value="Processing&lt;br&gt;Jobs" vertex="1">
+      <mxGeometry height="40" width="80" x="1450" y="15225" as="geometry" />
+    </mxCell>
+    <mxCell id="conn6" edge="1" parent="1" source="objectStorage" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="kafka">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="uploadFlow3" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" value="Queue job" vertex="1">
+      <mxGeometry height="30" width="80" x="1350" y="15200" as="geometry" />
+    </mxCell>
+    <mxCell id="processingService" parent="1" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.servers.skype_for_business_persistent_chat_server;" value="" vertex="1">
+      <mxGeometry height="70" width="70" x="1630" y="15195" as="geometry" />
+    </mxCell>
+    <mxCell id="processingLabel" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" value="Video Processing" vertex="1">
+      <mxGeometry height="30" width="120" x="1605" y="15265" as="geometry" />
+    </mxCell>
+    <mxCell id="processingDetails" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" value="- Transcoding&lt;br&gt;- Multiple resolutions&lt;br&gt;- Thumbnail gen&lt;br&gt;- Compression" vertex="1">
+      <mxGeometry height="70" width="140" x="1595" y="15295" as="geometry" />
+    </mxCell>
+    <mxCell id="conn7" edge="1" parent="1" source="kafka" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="processingService">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="uploadFlow4" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" value="Process video" vertex="1">
+      <mxGeometry height="30" width="100" x="1550" y="15200" as="geometry" />
+    </mxCell>
+    <mxCell id="processedStorage" parent="1" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="" vertex="1">
+      <mxGeometry height="80" width="120" x="1830" y="15190" as="geometry" />
+    </mxCell>
+    <mxCell id="processedStorageLabel" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" value="&lt;b&gt;Processed&lt;/b&gt;" vertex="1">
+      <mxGeometry height="30" width="80" x="1850" y="15200" as="geometry" />
+    </mxCell>
+    <mxCell id="processedStorageDetails" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" value="Multiple&lt;br&gt;Resolutions" vertex="1">
+      <mxGeometry height="40" width="80" x="1850" y="15225" as="geometry" />
+    </mxCell>
+    <mxCell id="conn8" edge="1" parent="1" source="processingService" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="processedStorage">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="uploadFlow5" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" value="Save processed" vertex="1">
+      <mxGeometry height="30" width="110" x="1720" y="15200" as="geometry" />
+    </mxCell>
+    <mxCell id="cdn" parent="1" style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="" vertex="1">
+      <mxGeometry height="80" width="120" x="2030" y="15190" as="geometry" />
+    </mxCell>
+    <mxCell id="cdnLabel" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" value="&lt;b&gt;CDN&lt;/b&gt;" vertex="1">
+      <mxGeometry height="30" width="50" x="2065" y="15200" as="geometry" />
+    </mxCell>
+    <mxCell id="cdnDetails" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" value="Global Edge&lt;br&gt;Servers" vertex="1">
+      <mxGeometry height="40" width="90" x="2045" y="15225" as="geometry" />
+    </mxCell>
+    <mxCell id="conn9" edge="1" parent="1" source="processedStorage" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="cdn">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="uploadFlow6" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" value="Distribute" vertex="1">
+      <mxGeometry height="30" width="70" x="1960" y="15200" as="geometry" />
+    </mxCell>
+    <mxCell id="videoMetaDB" parent="1" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.postgre_sql_instance;fillColor=#2E73B8;gradientColor=none;" value="" vertex="1">
+      <mxGeometry height="63" width="60" x="1230" y="15320" as="geometry" />
+    </mxCell>
+    <mxCell id="videoMetaDBLabel" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" value="&lt;b&gt;Video Metadata&lt;/b&gt;" vertex="1">
+      <mxGeometry height="30" width="120" x="1200" y="15290" as="geometry" />
+    </mxCell>
+    <mxCell id="videoMetaDBDetails" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" value="- videoID&lt;br&gt;- title, desc&lt;br&gt;- tags, views&lt;br&gt;- likes, CDN URL" vertex="1">
+      <mxGeometry height="70" width="110" x="1310" y="15316" as="geometry" />
+    </mxCell>
+    <mxCell id="conn10" edge="1" parent="1" source="uploadService" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="videoMetaDB">
+      <mxGeometry relative="1" as="geometry">
+        <Array as="points">
+          <mxPoint x="1055" y="15280" />
+          <mxPoint x="1260" y="15280" />
+        </Array>
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="metadataFlow" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" value="Save metadata" vertex="1">
+      <mxGeometry height="30" width="110" x="1120" y="15320" as="geometry" />
+    </mxCell>
+    <mxCell id="watchFlowTitle" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#b85450;fillColor=#f8cecc;" value="&lt;b&gt;VIDEO WATCH FLOW&lt;/b&gt;" vertex="1">
+      <mxGeometry height="30" width="160" x="1370" y="15450" as="geometry" />
+    </mxCell>
+    <mxCell id="viewer" parent="1" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#232F3E;fillColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.users;" value="" vertex="1">
+      <mxGeometry height="60" width="60" x="622" y="15520" as="geometry" />
+    </mxCell>
+    <mxCell id="viewerLabel" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" value="Viewer" vertex="1">
+      <mxGeometry height="30" width="60" x="622" y="15580" as="geometry" />
+    </mxCell>
+    <mxCell id="apiGateway2" parent="1" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#7AA116;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.iot_device_gateway;" value="" vertex="1">
+      <mxGeometry height="110" width="117.53" x="813" y="15495" as="geometry" />
+    </mxCell>
+    <mxCell id="apiGateway2Label" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" value="API Gateway" vertex="1">
+      <mxGeometry height="30" width="100" x="822" y="15605" as="geometry" />
+    </mxCell>
+    <mxCell id="conn11" edge="1" parent="1" source="viewer" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="apiGateway2">
+      <mxGeometry relative="1" as="geometry">
+        <Array as="points">
+          <mxPoint x="692" y="15550" />
+          <mxPoint x="692" y="15550" />
+        </Array>
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="watchFlow1" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" value="Request video" vertex="1">
+      <mxGeometry height="30" width="100" x="712" y="15520" as="geometry" />
+    </mxCell>
+    <mxCell id="redisCache" parent="1" style="whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="" vertex="1">
+      <mxGeometry height="80" width="120" x="1020" y="15510" as="geometry" />
+    </mxCell>
+    <mxCell id="redisCacheLabel" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" value="&lt;b&gt;Redis Cache&lt;/b&gt;" vertex="1">
+      <mxGeometry height="30" width="100" x="1030" y="15520" as="geometry" />
+    </mxCell>
+    <mxCell id="redisCacheDetails" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" value="Hot videos&lt;br&gt;Metadata" vertex="1">
+      <mxGeometry height="40" width="80" x="1040" y="15545" as="geometry" />
+    </mxCell>
+    <mxCell id="conn12" edge="1" parent="1" source="apiGateway2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="redisCache">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="watchFlow2" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" value="Check cache" vertex="1">
+      <mxGeometry height="30" width="90" x="940" y="15520" as="geometry" />
+    </mxCell>
+    <mxCell id="videoMetaDB2" parent="1" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.postgre_sql_instance;fillColor=#2E73B8;gradientColor=none;" value="" vertex="1">
+      <mxGeometry height="63" width="60" x="1050" y="15640" as="geometry" />
+    </mxCell>
+    <mxCell id="videoMetaDB2Label" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" value="Video Metadata" vertex="1">
+      <mxGeometry height="30" width="110" x="1025" y="15703" as="geometry" />
+    </mxCell>
+    <mxCell id="conn13" edge="1" parent="1" source="redisCache" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="videoMetaDB2">
+      <mxGeometry relative="1" as="geometry">
+        <Array as="points">
+          <mxPoint x="1080" y="15610" />
+        </Array>
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="watchFlow3" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" value="If miss,&lt;br&gt;fetch from DB" vertex="1">
+      <mxGeometry height="40" width="100" x="1120" y="15600" as="geometry" />
+    </mxCell>
+    <mxCell id="cdnStream" parent="1" style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="" vertex="1">
+      <mxGeometry height="80" width="120" x="1230" y="15510" as="geometry" />
+    </mxCell>
+    <mxCell id="cdnStreamLabel" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" value="&lt;b&gt;CDN&lt;/b&gt;" vertex="1">
+      <mxGeometry height="30" width="50" x="1265" y="15520" as="geometry" />
+    </mxCell>
+    <mxCell id="cdnStreamDetails" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" value="Stream video&lt;br&gt;HLS/DASH" vertex="1">
+      <mxGeometry height="40" width="100" x="1240" y="15545" as="geometry" />
+    </mxCell>
+    <mxCell id="conn14" edge="1" parent="1" source="redisCache" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="cdnStream">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="watchFlow4" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" value="Get video URL" vertex="1">
+      <mxGeometry height="30" width="100" x="1150" y="15520" as="geometry" />
+    </mxCell>
+    <mxCell id="analyticsService" parent="1" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.servers.skype_for_business_persistent_chat_server;" value="" vertex="1">
+      <mxGeometry height="70" width="70" x="1430" y="15515" as="geometry" />
+    </mxCell>
+    <mxCell id="analyticsLabel" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" value="Analytics SVC" vertex="1">
+      <mxGeometry height="30" width="100" x="1415" y="15585" as="geometry" />
+    </mxCell>
+    <mxCell id="conn15" edge="1" parent="1" source="cdnStream" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="analyticsService">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="watchFlow5" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" value="Track views" vertex="1">
+      <mxGeometry height="30" width="90" x="1350" y="15520" as="geometry" />
+    </mxCell>
+    <mxCell id="analyticsDB" parent="1" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.postgre_sql_instance;fillColor=#2E73B8;gradientColor=none;" value="" vertex="1">
+      <mxGeometry height="63" width="60" x="1630" y="15518" as="geometry" />
+    </mxCell>
+    <mxCell id="analyticsDBLabel" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" value="Analytics DB" vertex="1">
+      <mxGeometry height="30" width="90" x="1615" y="15488" as="geometry" />
+    </mxCell>
+    <mxCell id="analyticsDBDetails" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" value="- views&lt;br&gt;- watch_time&lt;br&gt;- engagement" vertex="1">
+      <mxGeometry height="60" width="100" x="1700" y="15520" as="geometry" />
+    </mxCell>
+    <mxCell id="conn16" edge="1" parent="1" source="analyticsService" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="analyticsDB">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="watchFlow6" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" value="Store metrics" vertex="1">
+      <mxGeometry height="30" width="100" x="1530" y="15520" as="geometry" />
+    </mxCell>
+    <mxCell id="recommendService" parent="1" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.servers.skype_for_business_persistent_chat_server;" value="" vertex="1">
+      <mxGeometry height="70" width="70" x="1430" y="15640" as="geometry" />
+    </mxCell>
+    <mxCell id="recommendLabel" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" value="Recommendation" vertex="1">
+      <mxGeometry height="30" width="120" x="1405" y="15710" as="geometry" />
+    </mxCell>
+    <mxCell id="recommendDetails" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" value="ML Engine&lt;br&gt;User behavior" vertex="1">
+      <mxGeometry height="40" width="100" x="1415" y="15740" as="geometry" />
+    </mxCell>
+    <mxCell id="conn17" edge="1" parent="1" source="analyticsService" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="recommendService">
+      <mxGeometry relative="1" as="geometry">
+        <Array as="points">
+          <mxPoint x="1465" y="15610" />
+        </Array>
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="watchFlow7" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" value="Suggest next" vertex="1">
+      <mxGeometry height="30" width="90" x="1520" y="15640" as="geometry" />
+    </mxCell>
+    <mxCell id="searchFlowTitle" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#b85450;fillColor=#f8cecc;" value="&lt;b&gt;SEARCH FLOW&lt;/b&gt;" vertex="1">
+      <mxGeometry height="30" width="130" x="1385" y="15850" as="geometry" />
+    </mxCell>
+    <mxCell id="searchUser" parent="1" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#232F3E;fillColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.users;" value="" vertex="1">
+      <mxGeometry height="60" width="60" x="622" y="15900" as="geometry" />
+    </mxCell>
+    <mxCell id="searchUserLabel" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" value="User" vertex="1">
+      <mxGeometry height="30" width="50" x="627" y="15960" as="geometry" />
+    </mxCell>
+    <mxCell id="apiGateway3" parent="1" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#7AA116;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.iot_device_gateway;" value="" vertex="1">
+      <mxGeometry height="110" width="117.53" x="813" y="15875" as="geometry" />
+    </mxCell>
+    <mxCell id="apiGateway3Label" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" value="API Gateway" vertex="1">
+      <mxGeometry height="30" width="100" x="822" y="15985" as="geometry" />
+    </mxCell>
+    <mxCell id="conn18" edge="1" parent="1" source="searchUser" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="apiGateway3">
+      <mxGeometry relative="1" as="geometry">
+        <Array as="points">
+          <mxPoint x="692" y="15930" />
+          <mxPoint x="692" y="15930" />
+        </Array>
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="searchFlow1" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" value="Search query" vertex="1">
+      <mxGeometry height="30" width="100" x="712" y="15900" as="geometry" />
+    </mxCell>
+    <mxCell id="searchService" parent="1" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.users;" value="" vertex="1">
+      <mxGeometry height="70" width="70" x="1045" y="15895" as="geometry" />
+    </mxCell>
+    <mxCell id="searchServiceLabel" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" value="Search Service" vertex="1">
+      <mxGeometry height="30" width="110" x="1025" y="15965" as="geometry" />
+    </mxCell>
+    <mxCell id="conn19" edge="1" parent="1" source="apiGateway3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="searchService">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="searchFlow2" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" value="Process query" vertex="1">
+      <mxGeometry height="30" width="100" x="940" y="15900" as="geometry" />
+    </mxCell>
+    <mxCell id="elasticSearch" parent="1" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.mysql_db_instance;fillColor=#2E73B8;gradientColor=none;" value="" vertex="1">
+      <mxGeometry height="64.5" width="60" x="1260" y="15897" as="geometry" />
+    </mxCell>
+    <mxCell id="elasticSearchLabel" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" value="&lt;b&gt;ElasticSearch&lt;/b&gt;" vertex="1">
+      <mxGeometry height="30" width="110" x="1235" y="15867" as="geometry" />
+    </mxCell>
+    <mxCell id="elasticSearchDetails" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" value="Indexed:&lt;br&gt;- videos&lt;br&gt;- channels&lt;br&gt;- playlists" vertex="1">
+      <mxGeometry height="70" width="80" x="1340" y="15895" as="geometry" />
+    </mxCell>
+    <mxCell id="conn20" edge="1" parent="1" source="searchService" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="elasticSearch">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="searchFlow3" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" value="Search index" vertex="1">
+      <mxGeometry height="30" width="90" x="1160" y="15900" as="geometry" />
+    </mxCell>
+    <mxCell id="commentFlowTitle" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#b85450;fillColor=#f8cecc;" value="&lt;b&gt;COMMENT FLOW&lt;/b&gt;" vertex="1">
+      <mxGeometry height="30" width="150" x="1375" y="16080" as="geometry" />
+    </mxCell>
+    <mxCell id="commentUser" parent="1" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#232F3E;fillColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.users;" value="" vertex="1">
+      <mxGeometry height="60" width="60" x="622" y="16130" as="geometry" />
+    </mxCell>
+    <mxCell id="commentUserLabel" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" value="User" vertex="1">
+      <mxGeometry height="30" width="50" x="627" y="16190" as="geometry" />
+    </mxCell>
+    <mxCell id="apiGateway4" parent="1" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#7AA116;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.iot_device_gateway;" value="" vertex="1">
+      <mxGeometry height="110" width="117.53" x="813" y="16105" as="geometry" />
+    </mxCell>
+    <mxCell id="apiGateway4Label" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" value="API Gateway" vertex="1">
+      <mxGeometry height="30" width="100" x="822" y="16215" as="geometry" />
+    </mxCell>
+    <mxCell id="conn21" edge="1" parent="1" source="commentUser" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="apiGateway4">
+      <mxGeometry relative="1" as="geometry">
+        <Array as="points">
+          <mxPoint x="692" y="16160" />
+          <mxPoint x="692" y="16160" />
+        </Array>
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="commentFlow1" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" value="Post comment" vertex="1">
+      <mxGeometry height="30" width="110" x="712" y="16130" as="geometry" />
+    </mxCell>
+    <mxCell id="commentService" parent="1" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.servers.skype_for_business_persistent_chat_server;" value="" vertex="1">
+      <mxGeometry height="70" width="70" x="1045" y="16125" as="geometry" />
+    </mxCell>
+    <mxCell id="commentServiceLabel" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" value="Comment SVC" vertex="1">
+      <mxGeometry height="30" width="100" x="1030" y="16195" as="geometry" />
+    </mxCell>
+    <mxCell id="conn22" edge="1" parent="1" source="apiGateway4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="commentService">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="commentFlow2" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" value="Process" vertex="1">
+      <mxGeometry height="30" width="70" x="950" y="16130" as="geometry" />
+    </mxCell>
+    <mxCell id="commentDB" parent="1" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/other/Managed_Instance_Apache_Cassandra.svg;" value="" vertex="1">
+      <mxGeometry height="99" width="99" x="1230" y="16110" as="geometry" />
+    </mxCell>
+    <mxCell id="commentDBLabel" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" value="&lt;b&gt;Comment DB&lt;/b&gt;" vertex="1">
+      <mxGeometry height="30" width="100" x="1230" y="16080" as="geometry" />
+    </mxCell>
+    <mxCell id="commentDBDetails" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" value="Cassandra&lt;br&gt;- commentID&lt;br&gt;- videoID&lt;br&gt;- userID&lt;br&gt;- text" vertex="1">
+      <mxGeometry height="90" width="100" x="1340" y="16115" as="geometry" />
+    </mxCell>
+    <mxCell id="conn23" edge="1" parent="1" source="commentService" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="commentDB">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="commentFlow3" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" value="Store comment" vertex="1">
+      <mxGeometry height="30" width="110" x="1140" y="16130" as="geometry" />
+    </mxCell>
+    <mxCell id="notificationService" parent="1" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/other/Windows_Notification_Services.svg;" value="" vertex="1">
+      <mxGeometry height="61" width="61" x="1459" y="16129" as="geometry" />
+    </mxCell>
+    <mxCell id="notificationLabel" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" value="Notification SVC" vertex="1">
+      <mxGeometry height="30" width="110" x="1435" y="16190" as="geometry" />
+    </mxCell>
+    <mxCell id="conn24" edge="1" parent="1" source="commentService" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="notificationService">
+      <mxGeometry relative="1" as="geometry">
+        <Array as="points">
+          <mxPoint x="1080" y="16220" />
+          <mxPoint x="1490" y="16220" />
+        </Array>
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="commentFlow4" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" value="Notify creator" vertex="1">
+      <mxGeometry height="30" width="100" x="1240" y="16220" as="geometry" />
+    </mxCell>
+    <mxCell id="liveFlowTitle" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#b85450;fillColor=#f8cecc;" value="&lt;b&gt;LIVE STREAMING FLOW&lt;/b&gt;" vertex="1">
+      <mxGeometry height="30" width="190" x="1355" y="16330" as="geometry" />
+    </mxCell>
+    <mxCell id="streamer" parent="1" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#232F3E;fillColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.users;" value="" vertex="1">
+      <mxGeometry height="60" width="60" x="622" y="16380" as="geometry" />
+    </mxCell>
+    <mxCell id="streamerLabel" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" value="Streamer" vertex="1">
+      <mxGeometry height="30" width="70" x="617" y="16440" as="geometry" />
+    </mxCell>
+    <mxCell id="ingestServer" parent="1" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.servers.skype_for_business_persistent_chat_server;" value="" vertex="1">
+      <mxGeometry height="70" width="70" x="836" y="16375" as="geometry" />
+    </mxCell>
+    <mxCell id="ingestLabel" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" value="Ingest Server" vertex="1">
+      <mxGeometry height="30" width="100" x="821" y="16445" as="geometry" />
+    </mxCell>
+    <mxCell id="conn25" edge="1" parent="1" source="streamer" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="ingestServer">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="liveFlow1" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" value="RTMP stream" vertex="1">
+      <mxGeometry height="30" width="100" x="712" y="16380" as="geometry" />
+    </mxCell>
+    <mxCell id="liveTranscoding" parent="1" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.servers.skype_for_business_persistent_chat_server;" value="" vertex="1">
+      <mxGeometry height="70" width="70" x="1045" y="16375" as="geometry" />
+    </mxCell>
+    <mxCell id="liveTranscodingLabel" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" value="Transcoding" vertex="1">
+      <mxGeometry height="30" width="90" x="1035" y="16445" as="geometry" />
+    </mxCell>
+    <mxCell id="conn26" edge="1" parent="1" source="ingestServer" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="liveTranscoding">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="liveFlow2" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" value="Transcode" vertex="1">
+      <mxGeometry height="30" width="80" x="950" y="16380" as="geometry" />
+    </mxCell>
+    <mxCell id="liveCDN" parent="1" style="whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="" vertex="1">
+      <mxGeometry height="80" width="120" x="1230" y="16370" as="geometry" />
+    </mxCell>
+    <mxCell id="liveCDNLabel" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" value="&lt;b&gt;Live CDN&lt;/b&gt;" vertex="1">
+      <mxGeometry height="30" width="80" x="1250" y="16380" as="geometry" />
+    </mxCell>
+    <mxCell id="liveCDNDetails" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" value="HLS/DASH&lt;br&gt;segments" vertex="1">
+      <mxGeometry height="40" width="80" x="1250" y="16405" as="geometry" />
+    </mxCell>
+    <mxCell id="conn27" edge="1" parent="1" source="liveTranscoding" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="liveCDN">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="liveFlow3" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" value="Distribute" vertex="1">
+      <mxGeometry height="30" width="70" x="1150" y="16380" as="geometry" />
+    </mxCell>
+    <mxCell id="liveViewers" parent="1" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#232F3E;fillColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.users;" value="" vertex="1">
+      <mxGeometry height="60" width="60" x="1430" y="16380" as="geometry" />
+    </mxCell>
+    <mxCell id="liveViewersLabel" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" value="Live Viewers" vertex="1">
+      <mxGeometry height="30" width="90" x="1415" y="16440" as="geometry" />
+    </mxCell>
+    <mxCell id="conn28" edge="1" parent="1" source="liveCDN" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="liveViewers">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="liveFlow4" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" value="Watch live" vertex="1">
+      <mxGeometry height="30" width="80" x="1360" y="16380" as="geometry" />
+    </mxCell>
+  </root>
+</mxGraphModel>
